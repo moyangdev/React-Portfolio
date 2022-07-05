@@ -10,13 +10,7 @@ exports[`Nav component matches snapshot DOM node structure 1`] = `
         data-testid="link"
         href="/"
       >
-        <span
-          aria-label="camera"
-          role="img"
-        >
-           📸
-        </span>
-         Oh Snap!
+         Mo Yang
       </a>
     </h2>
     <nav>

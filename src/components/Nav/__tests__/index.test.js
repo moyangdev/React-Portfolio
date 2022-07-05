@@ -38,20 +38,6 @@ describe('Nav component', () => {
   });
 })
 
-describe('emoji is visible', () => {
-  it('inserts emoji into the h2', () => {
-    const { getByLabelText } = render(<Nav
-      categories={categories}
-      setCurrentCategory={mockSetCurrentCategory}
-      currentCategory={mockCurrentCategory}
-      contactSelected={mockContactSelected}
-      setContactSelected={mockSetContactSelected}
-    />);
-
-    expect(getByLabelText('camera')).toHaveTextContent('📸');
-  });
-})
-
 describe('links are visible', () => {
   it('inserts text into the home link', () => {
     const { getByTestId } = render(<Nav
@@ -62,7 +48,7 @@ describe('links are visible', () => {
       setContactSelected={mockSetContactSelected}
     />);
 
-    expect(getByTestId('link')).toHaveTextContent('Oh Snap!');
+    expect(getByTestId('link')).toHaveTextContent('Mo Yang');
     expect(getByTestId('about')).toHaveTextContent('About me');
   });
 })
