@@ -289,3 +289,7 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.footer {
+  text-align: center;
+}
