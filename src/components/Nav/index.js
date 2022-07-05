@@ -6,6 +6,7 @@ function Nav(props) {
     categories = [],
     setCurrentCategory,
     contactSelected,
+    resumeSelected,
     currentCategory,
     setContactSelected,
   } = props;
@@ -30,6 +31,9 @@ function Nav(props) {
           </li>
           <li className={`mx-2 ${contactSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
+          </li>
+          <li className={`mx-2 ${resumeSelected && 'navActive'}`}>
+            <span onClick={() => setContactSelected(true)}>Resume</span>
           </li>
           {categories.map((category) => (
             <li
