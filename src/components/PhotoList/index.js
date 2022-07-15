@@ -7,20 +7,12 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Run Buddy',
-      category: 'projects',
-      gitlink: 'https://github.com/moyangdev/run-buddy',
-      applink:'https://moyangdev.github.io/run-buddy/',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
-    {
       name: 'Formula-1-Frenzy',
       category: 'projects',
       gitlink: 'https://github.com/moyangdev/Formula-1-Frenzy',
       applink:'https://moyangdev.github.io/Formula-1-Frenzy/',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'First Group Project'
     },
     {
       name: 'Doggy Daycare',
@@ -28,7 +20,15 @@ const PhotoList = ({ category }) => {
       gitlink: 'https://github.com/moyangdev/Doggy-Daycare',
       applink:'https://vast-plains-21432.herokuapp.com/',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'Second Group Project'
+    },
+    {
+      name: 'Freedom Fit',
+      category: 'projects',
+      gitlink: 'https://github.com/moyangdev/Freedom-Fit',
+      applink:'https://peaceful-refuge-94626.herokuapp.com/',
+      description:
+        'Third Group Project'
     },
     {
       name: 'The Tech Blog',
@@ -36,7 +36,7 @@ const PhotoList = ({ category }) => {
       gitlink: 'https://github.com/moyangdev/tech-blog',
       applink:'https://github.com/moyangdev/tech-blog',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'Tech Blog App'
     },
     {
       name: 'Password Generator',
@@ -44,7 +44,15 @@ const PhotoList = ({ category }) => {
       gitlink: 'https://github.com/moyangdev/password-generator',
       applink:'https://moyangdev.github.io/password-generator/',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'An app that generates random password'
+    },
+    {
+      name: 'Run Buddy',
+      category: 'projects',
+      gitlink: 'https://github.com/moyangdev/run-buddy',
+      applink:'https://moyangdev.github.io/run-buddy/',
+      description:
+        'Run Buddy App'
     }
   ]);
 
